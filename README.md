@@ -2,7 +2,7 @@
 
 **AI Petroleum Drilling Simulation Engine**
 
-An interactive 3D drilling simulator powered by Claude AI. Control a virtual drilling rig, navigate geological layers, and let AI make real-time safety decisions based on sensor telemetry.
+"At each geological transition, sensor telemetry (pressure, RPM, temperature, mud weight) is serialized and passed to Claude with a structured system prompt defining the role of a petroleum safety engineer. The model returns a JSON decision object containing a status code, risk assessment, and recommendation. Responses are parsed and mapped to UI state in under 400ms average."
 
 ## Features
 
