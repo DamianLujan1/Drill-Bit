@@ -2,7 +2,7 @@
 
 **AI Petroleum Drilling Simulation Engine**
 
-"At each geological transition, sensor telemetry (pressure, RPM, temperature, mud weight) is serialized and passed to Claude with a structured system prompt defining the role of a petroleum safety engineer. The model returns a JSON decision object containing a status code, risk assessment, and recommendation. Responses are parsed and mapped to UI state in under 400ms average."
+"At each geological transition, sensor telemetry (pressure, RPM, temperature, mud weight) is serialized and passed to Claude with a structured system prompt defining the role of a petroleum safety engineer. The model returns a JSON decision object containing a status code, risk assessment, and recommendation."
 
 ## Features
 
